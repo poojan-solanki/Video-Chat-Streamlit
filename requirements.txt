@@ -1,0 +1,10 @@
+opencv-python
+chromadb
+python-dotenv
+flask
+flask-cors
+boto3
+groq
+pillow
+sentence-transformers
+streamlit
