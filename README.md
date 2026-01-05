@@ -124,3 +124,8 @@ DINOv2 was integrated for **image similarity and visual feature extraction**. It
 * Maintained a clean and maintainable codebase suitable for iteration and scaling
 
 ---
+## Use of AI-Assisted Development Tools
+AI-assisted tools such as **antigravity** and **GitHub Copilot** were used to accelerate development on an early prototype of the video chat/video analysis application I made. These tools helped enhance existing functionality and reduce boilerplate, while all core architectural decisions, optimizations, and integrations were implemented and validated manually.
+
+## Improvements with More Development Time
+With additional time, I would have conducted deeper ViT-based model evaluation and benchmarking, particularly exploring BLIP for enhanced vision–language pretraining, cross-modal alignment, and context-aware caption generation. I would also integrate SAM3 to enable prompt-driven spatial segmentation over video frames, allowing targeted extraction of specific objects or regions of interest across time. These additions would significantly improve fine-grained video understanding, temporal consistency, and overall application accuracy.
