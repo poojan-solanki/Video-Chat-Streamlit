@@ -23,26 +23,30 @@ streamlit run streamlit_app.py
 
 The app will open in your browser at `http://localhost:8501`
 
-### App Features
+## App Features
 
-#### Upload Video Page
+### Upload Video
 - Upload videos (MP4, AVI, MOV, MKV, FLV, WMV)
 - Real-time processing progress
-- Smart title generation
 - Automatic frame extraction and analysis
+- Smart title generation using AI
 
-#### Dashboard Page
+### Dashboard
 - View all uploaded videos
-- Statistics overview (total videos, frames, storage)
+- Statistics overview (total videos, frames, storage usage)
 - Search and filter videos
-- View individual video details
-- Delete videos with cleanup
+- View detailed information for each video
+- Delete videos with proper cleanup
 
-#### 🔍 Search & Query Page
+### Search & Query
 - Select any processed video
-- Ask natural language questions
-- Get AI-powered answers based on video content
-- View source frames for answers
+- Ask natural language questions about the video
+- Receive AI-powered answers based on video content
+- View source frames used to generate the answers
+
+### Additional Notes
+- A **live video feed implementation** can be easily supported using the same architecture.  
+- Due to **resource limitations**, the system was tested and demonstrated using uploaded video files instead of live streams.
 
 
 ## 📊 Architecture
