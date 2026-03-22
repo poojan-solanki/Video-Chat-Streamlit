@@ -3,8 +3,8 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/poojan-solanki/Flytbase-Project.git
-cd Flytbase-Project
+git clone https://github.com/poojan-solanki/Video-Chat-Streamlit.git
+cd Video-Chat-Streamlit
 ```
 
 ### 2. Use uv sync to install dependencies
