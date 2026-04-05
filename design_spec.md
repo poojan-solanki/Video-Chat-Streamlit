@@ -1,8 +1,8 @@
-# Drone Security Analyst Agent - Design & Specification
+# Video Chat App - Design & Specification
 
 ## 1. Feature Specification
 **Value Proposition:**
-The Drone Security Analyst Agent enhances property security by providing automated, AI-driven monitoring of aerial surveillance footage. It fuses visual data with telemetry to detect potential threats in real-time, reducing the need for constant human supervision and ensuring faster response times to security breaches.
+The Video Chat App enhances video analysis by providing automated, AI-driven monitoring of video footage. It fuses visual data with context to detect potential activities in real-time, reducing the need for constant human supervision and ensuring faster response times.
 
 **Key Requirements:**
 1.  **Automated Threat Detection:** Automatically identify unauthorized people, vehicles, or suspicious activities (e.g., "climbing fence") in video feeds.
@@ -14,7 +14,7 @@ The system follows a pipeline architecture:
 
 1.  **Data Ingestion Layer:**
     *   **Video Source:** Reads video frames.
-    *   **Telemetry Source:** Simulates drone flight data (Time, GPS, Altitude, Heading) synchronized with video frames.
+    *   **Telemetry Source:** Simulates video metadata (Time, Location) synchronized with video frames.
 
 2.  **Analysis Layer (The "Brain"):**
     *   **Visual Analysis (SmolVLM):** Generates semantic descriptions of each frame (e.g., "A red car is parked").

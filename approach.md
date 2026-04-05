@@ -1,14 +1,14 @@
-# Drone Security Agent - Approach & Methodology Write-Up
+# Video Chat App - Approach & Methodology Write-Up
 
 <!-- **Author**: Poojan Solanki   -->
-**Project**: Video Analysis Engine for Drone Security  
+**Project**: Video Analysis Engine for Video Chat App  
 **Date**: January 2026
 
 ---
 
 ## Executive Overview
 
-This document outlines the comprehensive approach, technical decisions, and implementation strategy for building an AI-powered video analysis system designed for drone security applications. The system processes drone footage, extracts meaningful insights, and enables natural language interaction with video content.
+This document outlines the comprehensive approach, technical decisions, and implementation strategy for building an AI-powered video analysis system designed for video chat applications. The system processes video footage, extracts meaningful insights, and enables natural language interaction with video content.
 
 ---
 
@@ -32,7 +32,7 @@ This document outlines the comprehensive approach, technical decisions, and impl
 
 The project aimed to create a system that could:
 
-1. **Process video footage** efficiently from drone surveillance
+1. **Process video footage** efficiently from video surveillance
 2. **Extract meaningful information** using AI/ML models
 3. **Enable natural language queries** about video content
 4. **Detect security anomalies** through rule-based and AI analysis
@@ -41,7 +41,7 @@ The project aimed to create a system that could:
 
 ### Key Challenges
 
-- **Video data volume**: Drone footage can be hours long, requiring efficient processing
+- **Video data volume**: Video footage can be hours long, requiring efficient processing
 - **Real-time requirements**: Users expect quick responses to queries
 - **Model selection**: Choosing the right AI models balancing accuracy and speed
 - **Data redundancy**: Video frames often contain repetitive information
@@ -630,7 +630,7 @@ for attempt in range(3):
 ### Short-term Enhancements (1-3 months)
 
 1. **Live Video Streaming**
-   - RTSP/RTMP support for real-time drone feeds
+   - RTSP/RTMP support for real-time video feeds
    - Continuous processing pipeline
    - WebSocket for live alerts
 
@@ -682,7 +682,7 @@ for attempt in range(3):
 
 ## Conclusion
 
-The Drone Security Agent project demonstrates how carefully selected modern AI tools can create powerful, efficient systems when guided by strong architectural principles. By prioritizing performance, simplicity, and user experience, we built a system that processes hours of video footage in seconds and enables natural language interaction with visual data.
+The Video Chat App project demonstrates how carefully selected modern AI tools can create powerful, efficient systems when guided by strong architectural principles. By prioritizing performance, simplicity, and user experience, we built a system that processes hours of video footage in seconds and enables natural language interaction with visual data.
 
 Key success factors:
 - **Right tool selection**: Groq, DINOv2, Streamlit chosen for specific strengths

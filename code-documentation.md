@@ -1,8 +1,8 @@
-# Drone Security Agent - Technical Documentation
+# Video Chat App - Technical Documentation
 
 > **Version:** 1.0  
 > **Last Updated:** January 6, 2026  
-> **Project:** Video Analysis Engine for Drone Security
+> **Project:** Video Analysis Engine
 
 ---
 
@@ -26,7 +26,7 @@
 
 ## Executive Summary
 
-The **Drone Security Agent** is an AI-powered video analysis application designed to process drone security footage and provide intelligent insights through natural language queries. The system uses state-of-the-art vision models and large language models to analyze video content, detect security threats, and enable conversational interaction with video data.
+The **Video Chat App** is an AI-powered video analysis application designed to process video footage and provide intelligent insights through natural language queries. The system uses state-of-the-art vision models and large language models to analyze video content, detect security threats, and enable conversational interaction with video data.
 
 ### Key Features
 
@@ -432,7 +432,7 @@ CREATE TABLE frames (
 [
     {
         "uuid": "abc-123",
-        "filename": "drone_footage.mp4",
+        "filename": "video_footage.mp4",
         "smart_title": "Construction Site Monitoring",
         "created_at": "2026-01-06 11:30:00"
     }
@@ -556,7 +556,7 @@ CREATE TABLE frames (
 **Page Configuration**:
 ```python
 st.set_page_config(
-    page_title="Drone Security Agent - Powered by Groq",
+    page_title="Video Chat App - Powered by Groq",
     layout="wide",
     page_icon="🚁",
     initial_sidebar_state="expanded"
@@ -726,9 +726,9 @@ response = client.chat.completions.create(
     "document": "[12.5s]: Person walking with hard hat...",
     "metadata": {
         "video_uuid": "abc-123",
-        "video_file_name": "drone_footage.mp4",
+        "video_file_name": "video_footage.mp4",
         "frame_name": "frame_12.5",
-        "filename_plus_uuid": "drone_footage.mp4_abc-123",
+        "filename_plus_uuid": "video_footage.mp4_abc-123",
         "smart_name": "Construction Monitoring",
         "file_path": ""
     }
@@ -892,9 +892,9 @@ SIMILARITY_THRESHOLD = 0.90  # 90% similarity
 ```python
 # In streamlit_app.py
 st.set_page_config(
-    page_title="Drone Security Agent",
+    page_title="Video Chat App",
     layout="wide",  # or "centered"
-    page_icon="🚁"
+    page_icon="🎬"
 )
 ```
 

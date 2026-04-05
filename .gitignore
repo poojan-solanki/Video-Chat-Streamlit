@@ -12,3 +12,8 @@ wheels/
 Video Explanations/
 Code Documentation.pdf
 approach.pdf
+chroma_db
+temp_uploads
+videos.db
+test_video_chat_app.py
+**chroma.sqlite3
